@@ -19,10 +19,12 @@ GNN-based energy model (AtomGNN):
 
 # Molecular dynamics integration:
 
--Uses forces obtained via torch.autograd for simple velocity Verlet-like integration.
--Outputs trajectories as .xyz files for visualization with ASE.
+- Uses forces obtained via torch.autograd for simple velocity Verlet-like integration.
+- Outputs trajectories as .xyz files for visualization with ASE.
 
 Note: Atoms may "fly apart" due to unstable predicted forces from the network.
+
+![Demonstration](VMD1.9.4a53OpenGLDisplay2026-02-1111-20-11-ezgif.com-video-to-gif-converter.gif)
 
 # Installation
 ```text
