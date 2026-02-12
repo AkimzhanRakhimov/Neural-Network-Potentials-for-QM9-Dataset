@@ -38,7 +38,7 @@ Note: Atoms may "fly apart" due to unstable predicted forces from the network.
 │   ├── data/         # Data loading, preprocessing, and batching
 │   ├── models/       # Model definitions and training logic
 │   ├── molecular_dynamics/    # Optional module for molecular dynamics simulation via autograd
-│   └── requirements.txt/    # dependencies for the project
+│   └── requirements.txt    # dependencies for the project
 │
 ├── notebooks/
 │   └── project.ipynb # Full experimental notebook
